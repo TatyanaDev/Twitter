@@ -1,17 +1,17 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "q",
-    "database": "twitter",
-    "host": "127.0.0.1",
+    "username": "DB_USER",
+    "password": "DB_PASSWORD",
+    "database": "DB_NAME",
+    "host": "DB_HOST",
     "dialect": "postgres",
     "migrationStorage": "json"
   },
   "production": {
-    "username": "postgres",
-    "password": "q",
-    "database": "twitty",
-    "host": "127.0.0.1",
+    "username": "DB_USER",
+    "password": "DB_PASSWORD",
+    "database": "DB_NAME",
+    "host": "DB_HOST",
     "dialect": "postgres",
     "ssl": true,
     "dialectOptions": {
