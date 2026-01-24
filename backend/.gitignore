@@ -5,3 +5,5 @@
 /sequelize*.json
 /node_modules
 /dist
+
+/config/config.json
